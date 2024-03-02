@@ -1,0 +1,164 @@
+body{
+	background-color: lightskyblue;
+}
+header{
+	background-color: darkgoldenrod;
+	height: 250px;
+}
+h1{
+color: blueviolet;	
+text-align: center;
+z-index: 2;
+}
+nav{	width: 20%;
+	float: left;
+	background-color: #212121;
+}
+.bgvideo{
+width: 100%;
+height: 100%;
+position: relative;
+justify-content: center;
+align-items: center;
+display: flex;
+
+
+}
+.bgvideo video{
+width: 100%;
+position: absolute;
+height: 100%;	
+top: 0;
+left: 0;
+object-fit: cover;
+z-index: 1;
+
+}
+main{
+	background-color: orange;
+	width: 60%;
+	float: left;
+}
+h2{
+	text-align: center;
+  font-size: 2vw;
+color: aqua;
+}
+footer{
+height: 300px;
+clear: both;
+background-color: white;	
+color: white;
+}
+article{
+  border: ridge 5px red;
+	text-align: justify;
+	display: inline-block;
+	width: 30%;
+}
+aside{
+	width: 20%;
+	float: left;
+	background-color: #212121;
+}
+iframe{
+width: 100%;
+}
+ul{
+	
+	background-color: #212121;
+	color: white;
+	font-size: 24px;
+}
+.a1:hover{
+  border: solid 2px gray;
+  background-color: blue;
+  color: aqua;
+  text-decoration: none;
+  border: solid 2px pink;
+}
+button.b2 {
+  width: 10em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge #149CEA;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button.b2::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #212121;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+button.b2::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #212121;
+  transition: 0.5s;
+}
+
+button.b2:hover::before, button:hover::after {
+  transform: scale(0)
+}
+
+button.b2:hover {
+  box-shadow: inset 0px 0px 25px #1479EA;
+}
+
+ul{
+list-style-type: none;
+margin: 10px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.photo{
+height: 250px;
+width: 250;
+}
+#img1{
+height: 200px;
+width: 200px; 
+}
+figcaption{
+ text-align: center; 
+}
+@media only screen and (max-width:800px){
+  nav,main,aside{
+    width: 100%;
+  }

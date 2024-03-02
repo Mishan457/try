@@ -1,0 +1,45 @@
+h1{
+font-weight: 400;
+text-align: center;	
+font-family: "Lobster", sans-serif;
+font-size: 50px;
+text-transform: uppercase;
+
+}
+p{
+text-indent: 24px;
+font-size: 18px;
+line-height: 24px;
+font-family: sans-serif;
+text-align: justify;
+margin-left: 20px;
+margin-right: 20px;
+word-spacing: 2px;
+}
+h2,h3,h4{
+font-family: sans-serif;
+margin-left: 20px;
+
+
+
+}
+figure{
+padding: 5px;	
+}
+figure.right{
+float: right;
+border: thin #0c0c0c solid;
+}
+figure.left{
+border: thin #0c0c0c solid;
+float: left;	
+}
+
+.up{
+font-size: 30px;	
+}
+
+#s{
+list-style-type: none;
+
+}

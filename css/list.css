@@ -1,0 +1,16 @@
+body{
+background-image: url(https://www.imageshine.in/uploads/gallery/abstract-background-wallpaper-zoom.jpg);
+background-size: cover;
+background-repeat: no-repeat;	
+}
+ul{
+color: forestgreen;	
+font-size: 50px;
+text-align: center;
+font-family: "Lucida Console", Courier, monospace;
+}
+p{
+font-size: 50px;
+text-align: center;
+font-family: 'Lobster', sans-serif;
+}

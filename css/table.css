@@ -1,0 +1,69 @@
+
+body{
+background-color: limegreen;
+}
+p{
+font-family: "Caveat", cursive;
+font-size: 50px;
+text-align: center;
+color: royalblue;
+}
+table{
+border: double 5px green;
+width: 50%;
+border-collapse: collapse;
+margin: auto;
+}
+td,th{	
+border: solid 2px salmon;
+width: 25%;
+}
+tr:hover{
+background-color:lightgrey;
+
+}
+td:hover{
+text-transform: uppercase;
+text-align: center;
+font-weight: 700;
+background-image: url(https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif);
+font-size: 1.5em;
+color: Blue;
+}
+tr:nth-child(odd){
+background-color: lightseagreen;
+
+}
+tr:nth-child(even){
+background-color: lightblue;
+
+}
+.sc{
+text-align:center;
+vertical-align: middle;
+color: green;
+font-style: italic;
+}
+
+
+caption{
+font-size: 50px;
+background:linear-gradient(to left,red,orange,yellow,green,blue,indigo,purple);
+color: aquamarine;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

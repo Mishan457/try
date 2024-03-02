@@ -1,0 +1,49 @@
+body{
+background-color: lightcoral;
+
+}
+p{
+font-size: 50px;	
+}
+
+.p1{
+  background: linear-gradient(green,yellow);
+   color: #fff;
+text-align: center;
+font-family: 'Lobster', sans-serif;
+
+
+} 
+.p2{
+font-family: Times, "Times New Roman", Georgia, serif;
+
+}
+.p3{
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+font-weight: 700;
+}
+.p4{
+font-family: "Lucida Console", Courier, monospace;	
+}
+.p5{
+font-family: Lucida Handwriting;	
+}
+.p6{
+font-family: 'Lobster', sans-serif;
+text-shadow: 2px -2px blue;
+text-decoration-line: underline;
+text-underline-position: under;
+text-decoration-color: aquamarine;
+text-decoration-style: wavy;
+}
+.p7{
+font-family: 'Rubik Glitch Pop', system-ui;
+color: blueviolet;
+text-transform: lowercase;
+}
+
+.p9{
+color: skyblue;
+text-decoration-line: line-through;
+text-decoration-color: red;
+}

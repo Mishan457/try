@@ -1,0 +1,88 @@
+body{
+	background-color: aqua;
+}
+p{
+font-size: 50px;
+background-color: darkred;
+}
+.p1{
+	display: inline-block;
+}
+.s1{
+border: dotted 4px green;
+display: inline;	
+}
+#first{
+width: 500px;
+height: 500px;
+background-color: purple;
+border: ridge 20px pink;
+font-size: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-left: dotted;
+border-right: dashed orange;
+border-bottom: groove red;
+border-top: double yellow;
+margin: 50px;
+border-width: 20px;
+border-radius: 10% 20%;
+}
+#second{
+width: 700px;
+height: 700px;
+background-color: pink;
+border: groove 20px purple;
+font-size: 50px;
+text-align: center;
+padding: 50px;
+border-style: dashed dotted;
+border-color: red orange olive salmon;
+border-radius: 5% 10% 15% 20%;
+}
+#third{
+width: 600px;
+height: 200px;
+border: solid 10px green;
+margin: 20px;
+border-style: groove ridge dotted dashed;
+border-color: brown maroon beige indigo;
+background-color: coral;
+text-align: right;
+color: crimson;
+border-radius: 30px;
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+#forth{
+width: 600px;
+height: 200px;
+border: dashed 10px green;
+margin: 20px;
+border-style: dashed double ridge solid;
+border-color: lime orange red black;
+text-align: left;
+background-color: violet;
+color: teal;
+border-bottom-left-radius: 50px;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+#d5,#d6,#d7,#d8{
+margin: 200px;	
+}
+
+#d5{
+border: solid 5px green;
+}
+#d6{
+border: solid 5px blue;	
+
+}
+#d7{
+border: solid 5px red;
